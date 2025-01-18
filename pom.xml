@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ndarla</groupId>
+    <artifactId>coding-practice</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>coding</name>
+    <description>Coding project</description>
+
+    <modules>
+        <module>coding-tasks</module>
+        <module>spark-test</module>
+    </modules>
+
+</project>
+
+coding-tasks/pom.xml
+coding-tasks/src/main/java/com/ndarla/Solution.java
+coding-tasks/src/main/java/com/ndarla/Solution2.java
+coding-tasks/src/main/java/com/ndarla/Solution3.java
+coding-tasks/src/test/java/com/ndarla/AppTest.java
+pom.xml
+spark-test/pom.xml
+spark-test/src/main/java/com/ndarla/FinndingCommonElements.java
+spark-test/src/main/java/com/ndarla/RddSizeExample.java
+spark-test/src/main/scala/com/ndarla/RddSizeExample.scala
+spark-test/src/test/java/com/ndarla/AppTest.java
+.idea/
