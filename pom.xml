@@ -17,16 +17,3 @@
     </modules>
 
 </project>
-
-coding-tasks/pom.xml
-coding-tasks/src/main/java/com/ndarla/Solution.java
-coding-tasks/src/main/java/com/ndarla/Solution2.java
-coding-tasks/src/main/java/com/ndarla/Solution3.java
-coding-tasks/src/test/java/com/ndarla/AppTest.java
-pom.xml
-spark-test/pom.xml
-spark-test/src/main/java/com/ndarla/FinndingCommonElements.java
-spark-test/src/main/java/com/ndarla/RddSizeExample.java
-spark-test/src/main/scala/com/ndarla/RddSizeExample.scala
-spark-test/src/test/java/com/ndarla/AppTest.java
-.idea/
