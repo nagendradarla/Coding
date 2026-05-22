@@ -13,7 +13,6 @@
 
     <modules>
         <module>coding-tasks</module>
-        <module>spark-test</module>
     </modules>
 
 </project>
