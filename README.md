@@ -1,42 +1,61 @@
-# Maven Multi-Module Project: coding-tasks and spark-test
+# Coding Practice (Maven)
 
-This repository is a **Maven multi-module project** with two modules:
-- **`coding-tasks`**: Contains code related to various coding tasks and exercises.
-- **`spark-test`**: Contains test cases and implementations for working with Apache Spark.
+This repository contains Java coding exercises and algorithm practice problems.
+The project is now a single Maven module at the repository root.
 
 ## Project Structure
 
-The project is structured as follows:<br>
-├── pom.xml # Parent POM file <br>
-├── coding-tasks # First module: coding tasks and exercises <br>
-│ ├── src # Source code for coding tasks <br>
-│ └── pom.xml # Module-specific POM <br>
-├── spark-test # Second module: Spark testing <br>
-│ ├── src # Source code for Spark tests <br>
-│ └── pom.xml # Module-specific POM
-
-
-### Modules
-1. **`coding-tasks`**:
-    - This module includes various coding tasks and exercises. These tasks are designed to help solve common algorithmic and data structure problems.
-    - Tasks in this module may include sorting algorithms, dynamic programming exercises, and other coding challenges.
-
-2. **`spark-test`**:
-    - This module is designed to include unit tests and other test cases for testing Spark-based applications or components.
-    - It includes Spark jobs or data processing test cases using the **Apache Spark** framework.
-    - Useful for anyone interested in testing Spark applications using **JUnit** or **ScalaTest**.
+```text
+Coding/
+├── pom.xml
+├── README.md
+├── LeetCode150.txt
+└── src/
+    ├── main/java/
+    │   ├── binarytrees/
+    │   ├── com/ndarla/
+    │   ├── graphs/
+    │   ├── leetcode/
+    │   ├── queues/
+    │   ├── recursion/
+    │   ├── sorting/
+    │   └── stacks/
+    └── test/java/
+```
 
 ## Prerequisites
 
-- **Maven**: This project uses Maven for dependency management and building the project. Please ensure you have **Maven 3.x** or later installed.
-- **JDK**: Java Development Kit 8 or above is required to compile and run this project.
-- **Apache Spark**: For the `spark-test` module, **Apache Spark** should be set up in your environment if running Spark-specific tests.
+- Maven 3.x+
+- JDK 17 (based on `pom.xml` compiler settings)
 
-## Building the Project
+## Build And Test
 
-To build the project, navigate to the root directory and run:
+From the repository root:
 
-### This command will build both the coding-tasks and spark-test modules.
 ```bash
-mvn clean install
+mvn clean test
 ```
+
+To build the jar artifact:
+
+```bash
+mvn clean package
+```
+
+## Task Documentation
+
+Each task area now includes a local `README.md` with a short description and usage notes.
+Start from:
+
+- `src/main/java/binarytrees/README.md`
+- `src/main/java/com/ndarla/README.md`
+- `src/main/java/graphs/README.md`
+- `src/main/java/leetcode/README.md`
+- `src/main/java/queues/README.md`
+- `src/main/java/recursion/README.md`
+- `src/main/java/sorting/README.md`
+- `src/main/java/stacks/README.md`
+
+## Notes
+
+- Generated files (for example `target/`) and local OS files (for example `.DS_Store`) are not meant to be tracked in Git.
